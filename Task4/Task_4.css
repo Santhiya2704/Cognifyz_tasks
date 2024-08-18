@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.palette {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+}
+
+.color-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#red { background-color: red; }
+#blue { background-color: blue; }
+#green { background-color: green; }
+#yellow { background-color: yellow; color: black; }
+#purple { background-color: purple; }
+#orange { background-color: orange; }
